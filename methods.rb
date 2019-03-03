@@ -1,3 +1,5 @@
+require 'pry'
+
 # methods allow for code reuse
 def say_hello
   puts "Hello!"
@@ -42,6 +44,7 @@ coding_event_attendee("Don Dome", "Gaming Event")
 # method return values - using the 'return' keyword will achieve an explicit return value and terminate the code within the method
 def get_name
   name = "Bob Cobb"
+  binding.pry
   return name
   "Hal Hope"
 end
