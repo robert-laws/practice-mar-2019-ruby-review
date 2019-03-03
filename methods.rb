@@ -38,3 +38,20 @@ multi_greeting("Hal Hope", "Jim Jupe")
 welcome_player
 event_attendee("Kal Kool")
 coding_event_attendee("Don Dome", "Gaming Event")
+
+# method return values - using the 'return' keyword will achieve an explicit return value and terminate the code within the method
+def get_name
+  name = "Bob Cobb"
+  return name
+  "Hal Hope"
+end
+
+puts get_name
+
+# ruby supports implicit return values
+
+def add_values(a, b)
+  a + b # will return the sum of a + b
+end
+
+add_values(5, 4) # returns 9
