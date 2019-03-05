@@ -35,3 +35,19 @@ price > 4 ? "expensive price" : "cheap price"
 # statement modifiers - if and unless can be used to quickly test a condition and return a result
 puts "price is expensive" if price > 5
 puts "this price is not expensive" unless price > 5
+
+# case statements
+# is good to use the case statement to target a set of known possibilities for matches
+
+month = "may"
+
+case month
+when "january"
+  puts "it's beginning of the year"
+when "february"
+  puts "month with valentines"
+when "march"
+  puts "spring arrives"
+else
+  puts "later in the year"
+end
